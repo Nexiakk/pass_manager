@@ -7,7 +7,7 @@ def loadKey():
     file.close()
     return key
 
-fileaccess = True
+fileaccess = False
 firstTime = False
 with open('psw.txt', 'r') as file:
     firstline = file.readline().strip()
