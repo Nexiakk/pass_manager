@@ -1,4 +1,3 @@
-# pyta cie o haslo wstepu, wczytuje hasla z pliku, wyswietla hasla
 from cryptography.fernet import Fernet
 from os import path
 
